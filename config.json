@@ -1,0 +1,23 @@
+{
+    "DatasetName": ["CAS", "THU", "GIST"],
+    "Dataset": {
+        
+        "CAS": {
+            "subject_num": 14
+        },
+        "THU": {
+            "subject_num": 64
+        },
+        "GIST": {
+            "subject_num": 55
+        }
+    },
+    "TrainPara":{
+        "batch_size": 32,
+        "epoch": 60
+    },
+    "TestPara":{
+        "batch_size": 32,
+        "epoch": 1
+    }
+}
